@@ -1,0 +1,17 @@
+.cover {
+  margin: 0 auto;
+  display: flex;
+  position: relative;
+  max-width: calc(100% - 96px);
+}
+
+.cover:hover {
+  opacity: 0.5;
+  transition: opacity 0.5s linear;
+}
+
+@media screen and (max-width: 1279px) {
+  .cover {
+    max-width: 100%;
+  }
+}

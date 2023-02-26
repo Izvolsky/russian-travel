@@ -1,17 +1,17 @@
 .cover {
   margin: 0 auto;
   display: flex;
+  width: calc(100% - 96px);
   position: relative;
-  max-width: calc(100% - 96px);
+  justify-content: center;
+  align-items: center;
 }
 
-.cover:hover {
-  opacity: 0.5;
-  transition: opacity 0.5s linear;
-}
 
 @media screen and (max-width: 1279px) {
   .cover {
-    max-width: 100%;
+    width: 100%;
   }
 }
+
+
